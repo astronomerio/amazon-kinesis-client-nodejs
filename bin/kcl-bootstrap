@@ -138,7 +138,7 @@ function startKinesisClientLibraryApplication(options) {
   console.log("==========================================================");
   if (options.execute) {
     console.log("Starting Multi-Lang Daemon ...");
-    spawn(java, args, { stdio: 'inherit', env: { CLASSPATH_PREFIX: "logback" } });
+    spawn(java, args, { stdio: 'inherit' });
   }
 }
 
