@@ -42,7 +42,7 @@ var MAVEN_PACKAGE_LIST = [
   getMavenPackageInfo('com.fasterxml.jackson.core','jackson-annotations','2.8.0'),
   getMavenPackageInfo('com.fasterxml.jackson.core','jackson-core','2.8.9'),
   getMavenPackageInfo('com.fasterxml.jackson.core','jackson-databind','2.8.9'),
-  getMavenPackageInfo('com.fasterxml.jackson.dataformat','jackson-dataformat-cbor','2.6.6'),
+  getMavenPackageInfo('com.fasterxml.jackson.dataformat','jackson-dataformat-cbor','2.8.9'),
   getMavenPackageInfo('com.google.guava','guava','18.0'),
   getMavenPackageInfo('com.google.protobuf','protobuf-java','2.6.1'),
   getMavenPackageInfo('com.gu','kinesis-logback-appender','1.4.0'),
