@@ -30,15 +30,15 @@ var util = require('util');
 var MAVEN_PACKAGE_LIST = [
   getMavenPackageInfo('ch.qos.logback','logback-classic','1.1.7'),
   getMavenPackageInfo('ch.qos.logback','logback-core','1.1.7'),
-  getMavenPackageInfo('com.amazonaws','amazon-kinesis-client','1.7.5'),
-  getMavenPackageInfo('com.amazonaws','aws-java-sdk-cloudwatch','1.11.115'),
-  getMavenPackageInfo('com.amazonaws','aws-java-sdk-core','1.11.129'),
-  getMavenPackageInfo('com.amazonaws','aws-java-sdk-dynamodb','1.11.115'),
-  getMavenPackageInfo('com.amazonaws','aws-java-sdk-kinesis','1.11.115'),
-  getMavenPackageInfo('com.amazonaws','aws-java-sdk-kms','1.11.115'),
-  getMavenPackageInfo('com.amazonaws','aws-java-sdk-s3','1.11.115'),
-  getMavenPackageInfo('com.amazonaws','aws-java-sdk-sts','1.11.129'),
-  getMavenPackageInfo('com.amazonaws','jmespath-java','1.11.129'),
+  getMavenPackageInfo('com.amazonaws','amazon-kinesis-client','1.8.1'),
+  getMavenPackageInfo('com.amazonaws','aws-java-sdk-cloudwatch','1.11.171'),
+  getMavenPackageInfo('com.amazonaws','aws-java-sdk-core','1.11.171'),
+  getMavenPackageInfo('com.amazonaws','aws-java-sdk-dynamodb','1.11.171'),
+  getMavenPackageInfo('com.amazonaws','aws-java-sdk-kinesis','1.11.171'),
+  getMavenPackageInfo('com.amazonaws','aws-java-sdk-kms','1.11.171'),
+  getMavenPackageInfo('com.amazonaws','aws-java-sdk-s3','1.11.171'),
+  getMavenPackageInfo('com.amazonaws','aws-java-sdk-sts','1.11.171'),
+  getMavenPackageInfo('com.amazonaws','jmespath-java','1.11.171'),
   getMavenPackageInfo('com.fasterxml.jackson.core','jackson-annotations','2.8.0'),
   getMavenPackageInfo('com.fasterxml.jackson.core','jackson-core','2.8.9'),
   getMavenPackageInfo('com.fasterxml.jackson.core','jackson-databind','2.8.9'),
@@ -55,7 +55,7 @@ var MAVEN_PACKAGE_LIST = [
   getMavenPackageInfo('org.apache.httpcomponents','httpcore','4.4.4'),
   getMavenPackageInfo('org.slf4j','jcl-over-slf4j','1.7.21'),
   getMavenPackageInfo('org.slf4j','slf4j-api','1.7.21'),
-  getMavenPackageInfo('software.amazon.ion','ion-java','1.0.2')
+  getMavenPackageInfo('software.amazon.ion','ion-java','1.0.2'),
 ]
 
 var DEFAULT_JAR_PATH = path.resolve(path.join(__dirname, '..', 'lib', 'jars'));
